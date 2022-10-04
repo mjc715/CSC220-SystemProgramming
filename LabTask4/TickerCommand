@@ -1,0 +1,2 @@
+cp /root/Ticker.c . | gcc -Wall -o Ticker Ticker.c
+

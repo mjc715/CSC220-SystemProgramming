@@ -1,0 +1,5 @@
+If I start a new process in the command line prompt:
+It's parent: the shell process (bash)
+It's grandparent: systemd
+It's greatgrandparent: swapper process
+
