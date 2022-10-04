@@ -1,0 +1,3 @@
+GCC compiler: /usr/bin/gcc
+User groups: /etc/group
+Print spooling directory: /var/spool/cups

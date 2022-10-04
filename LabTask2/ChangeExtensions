@@ -1,0 +1,27 @@
+#!/bin/tcsh
+
+if ($#argv != 2) then
+	echo "Error: not enough args"
+	exit
+else
+	set LookFor = $1
+	set ChangeTo = $2
+endif
+
+set FilesFound = 0
+echo "Looking for .$LookFor files"
+
+foreach File (*.$LookFor)
+
+	set BaseFile = `basename -s .$LookFor $File`
+	set BaseFile = "$BaseFile.$ChangeTo"
+	mv $File $BaseFile
+	echo "$File changed to $BaseFile"
+	set FilesFound = `expr $FilesFound + 1`
+        unset BaseFile	
+end
+
+if ($FilesFound == 0) then
+	echo "Error: no .$LookFor files found"
+endif
+
