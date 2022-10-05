@@ -28,9 +28,9 @@ int main()
 
 	Deductibles = Deductibles * -1;
 	double TaxableIncome = CalcTaxableIncome(Income, Deductibles);
-	char TaxGroup = CalcTaxGroup(double TaxableIncome);
-	double TaxOwed = CalcTaxOwed(char TaxGroup, double TaxableIncome);
-	PrintInfo(double Income, double Deductibles, double TaxableIncome, char TaxGroup, double TaxOwed);
+	char TaxGroup = CalcTaxGroup(TaxableIncome);
+	double TaxOwed = CalcTaxOwed(TaxGroup, TaxableIncome);
+	PrintInfo(Income, Deductibles, TaxableIncome, TaxGroup, TaxOwed);
 
 	printf("\n");
 	printf("Income : $%.2lf \n", Income);
