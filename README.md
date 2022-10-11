@@ -7,4 +7,4 @@ LabTask2: UNIX file systems, find directories, changing filenames (ChangeExtensi
 LabTask3: Grepping, process manipulation  
 LabTask4: Intro to C Programming, program to understand simple C (RooKillCount.c)  
 LabTask5: More C Programming  
-LabTask6:  
+LabTask6: C Programming, manipulating bits and using pointers  
