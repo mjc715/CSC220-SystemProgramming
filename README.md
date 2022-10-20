@@ -8,4 +8,4 @@ LabTask3: Grepping, process manipulation
 LabTask4: Intro to C Programming, program to understand simple C (RooKillCount.c)  
 LabTask5: More C Programming  
 LabTask6: C Programming, manipulating bits and using pointers  
-LabTask7: C Programming, using structs and pointers together  
+LabTask7: C Programming, using structs and pointers together to make linked list  
