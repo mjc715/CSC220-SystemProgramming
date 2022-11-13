@@ -11,3 +11,4 @@ LabTask6: C Programming, manipulating bits and using pointers
 LabTask7: C Programming, using structs and pointers together to make linked list  
 LabTask8: C Programming input/output + manipulating strings  
 LabTask9: Using Makefiles and git and GitHub, see CSC322-GitLab repository  
+TextEditor Project: Uses a set of commands to take input from the keyboard and modify it, then saves it to an output file. Specifics are included in file  
