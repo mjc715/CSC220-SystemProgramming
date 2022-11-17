@@ -1,0 +1,5 @@
+date
+ls -l
+sleep 1
+cat fred.c
+sleep 3
