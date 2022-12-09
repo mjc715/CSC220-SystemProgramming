@@ -13,4 +13,5 @@ LabTask8: C Programming input/output + manipulating strings
 LabTask9: Using Makefiles and git and GitHub, see CSC322-GitLab repository  
 LabTask10: Uses fork() and exec() to execute a series of commands from a file in the background with the shell  
 LabTask12: Given a file as an argument, looks at the file and if it hasn't been modified in a few weeks it removes all write permissions for the file thus archiving it  
-TextEditor Project: Uses a set of commands to take input from the keyboard and modify it, then saves it to an output file. Specifics are included in file 
+TextEditor Project: Uses a set of commands to take input from the keyboard and modify it, then saves it to an output file. Specifics are included in file  
+Final Project: This program's purpose is to compute Fibonacci numbers using multi threading. To do this, the server program forks to create an interface that prompts the user for Fibonacci numbers to calculate and sends it to the server through a named pipe. The server then creates a thread for each request, meaning the calculations can be done simultaneously while the interface prompts the user for more input.  
